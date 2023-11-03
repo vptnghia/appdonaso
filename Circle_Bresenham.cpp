@@ -54,6 +54,8 @@ void mydisplay()
 
 int main(int argc, char** argv){
 	print("Hello world");
+	print("\n");
+	print("Hello c++");
 	int mode=GLUT_SINGLE | GLUT_RGB;
 	glutInitDisplayMode(mode);
 	
